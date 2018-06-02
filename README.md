@@ -39,7 +39,7 @@ Go to ```http://localhost:8080/swagger-ui.html``` and type user stefania and pas
 The way I think is that you create courses and students and then you assign courses to students or add students to a course.
 
 ```
-POST /api/course
+POST /api/courses
 ```
 
 Set request courseTitle to course title. Let's choose for example Formal Languages and Automata.
@@ -155,6 +155,7 @@ Set path variable studentId to 2. It will delete student Alexandra.
 ```
 PATCH /api/courses/{id}    
 ```
+Set path variable id with 1 and set the body with json below in order to add Stefania to course Formal Languages and Automata.
 
 ```
 {
