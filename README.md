@@ -13,7 +13,7 @@ REST API credentials ( used basic in memory authentication )
 user=stefania
 password=stefania
 ```
-Create MySQL DB - univmgmt_db and be sure you can connect with root/root on it.
+Create MySQL DB - univmgmt_db and be sure you can connect with root/root on it. All the tables will be created by Java Persistence API.
 
 
 This is application properties content for connecting to MySQL database:
