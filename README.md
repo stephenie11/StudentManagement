@@ -58,3 +58,4 @@ Travis CI URL
 
 Implemented 10 tests
 
+![tests](img/tests.png)
