@@ -29,7 +29,7 @@ Install project
 ```
 git clone https://github.com/stephenie11/StudentManagement.git
 
-cd cd StudentManagement/
+cd StudentManagement/
 
 mvn clean install
 
