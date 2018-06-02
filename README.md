@@ -171,17 +171,18 @@ Set path variable id with 1 and set the body with json below in order to add Ste
               "last_name": "Pirvu",
               "phone_number": "0739042106",
               "registration_number": "144/24",
-              "student_id": null
+              "student_id": 1
             }
         ]
        }
 ```
 
+Now let's delete the course Formal Languages and Automata.
 
 ```
     DELETE /api/courses
 ```
-Set courseId request param with 1 and delete Formal Languages Automata course.
+Set courseId request param with 1 and delete Formal Languages and Automata course.
 
 ### Continous Integration
 
