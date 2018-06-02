@@ -38,9 +38,9 @@ mvn spring-boot:run
 
 Go to ```http://localhost:8080/swagger-ui.html``` and type user stefania and password stefania in order to have access to the API and test the API.
 
-### Swagger UI 
+### Swagger UI API documentation routes
 
-
+![swagger-ui](img/swagger-ui.png)
 
 ### Student operations
 
@@ -53,6 +53,8 @@ Travis CI URL
 ```
     https://travis-ci.org/stephenie11/StudentManagement
 ```
+
+![continous-integration](img/continous-integration.png)
 
 ### Tests 
 
